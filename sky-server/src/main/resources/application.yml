@@ -44,7 +44,7 @@ sky:
 
     user-secret-key: itheima
     user-ttl: 7200000000000000000
-    user-token-name: authorization
+    user-token-name: authentication
   #阿里云OSS
   aliyun:
     oss:
