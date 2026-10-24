@@ -27,7 +27,7 @@ public class SetmealController {
      * @return
      */
     @GetMapping("/list")
-    @Cacheable(cacheNames = "setmealCache", key = "#categoryId")
+    @Cacheable(cacheNames = "setmealCache", key = "# categoryId")
     public Result<List<Setmeal>> list(Long categoryId) {
         Setmeal setmeal = new Setmeal();
         setmeal.setCategoryId(categoryId);
